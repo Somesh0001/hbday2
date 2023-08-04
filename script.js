@@ -26,7 +26,6 @@ gsap.from(".page2 #heading2 #cake2", {
     trigger: ".page2 #heading2 #cake2",
     scroller: "body",
     toggleActions: "restart reset restart reset",
-   
   },
 });
 gsap.from(".page2 #content2", {
@@ -35,8 +34,7 @@ gsap.from(".page2 #content2", {
   scrollTrigger: {
     trigger: ".page2 #content2",
     scroller: "body",
-    toggleActions: "restart reset restart reset",
-  
+    toggleActions: "restart pause none none",
   },
 });
 gsap.from(".page3 #content3", {
@@ -45,6 +43,9 @@ gsap.from(".page3 #content3", {
   scrollTrigger: {
     trigger: ".page3 #content3",
     scroller: "body",
-    toggleActions: "restart reset restart reset",
+    start: "center 100%",
+    end: "bottom ",
+    // markers: "true",
+    toggleActions: "restart pause pause pause",
   },
 });
