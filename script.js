@@ -24,10 +24,9 @@ gsap.from(".page2 #heading2 #cake2", {
   scale: 0,
   scrollTrigger: {
     trigger: ".page2 #heading2 #cake2",
-
     scroller: "body",
     toggleActions: "restart reset restart reset",
-    // markers: true,
+   
   },
 });
 gsap.from(".page2 #content2", {
@@ -35,7 +34,6 @@ gsap.from(".page2 #content2", {
   scale: 0,
   scrollTrigger: {
     trigger: ".page2 #content2",
-
     scroller: "body",
     toggleActions: "restart reset restart reset",
   
@@ -48,6 +46,5 @@ gsap.from(".page3 #content3", {
     trigger: ".page3 #content3",
     scroller: "body",
     toggleActions: "restart reset restart reset",
-    // markers: true,
   },
 });
