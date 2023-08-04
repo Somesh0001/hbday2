@@ -38,7 +38,7 @@ gsap.from(".page2 #content2", {
 
     scroller: "body",
     toggleActions: "restart reset restart reset",
-    markers: true,
+  
   },
 });
 gsap.from(".page3 #content3", {
