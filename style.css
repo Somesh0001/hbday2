@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Indie+Flower&family=Itim&family=Playfair+Display&family=Satisfy&family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Big+Shoulders+Inline+Text:wght@300&family=Indie+Flower&family=Itim&family=Playfair+Display&family=Satisfy&family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+.main .page1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+  width: auto;
+  background-color: black;
+}
+.main .page1 #heading1 {
+  font-size: 6vw;
+  background-image: url("https://th.bing.com/th/id/OIP.JbG2xdbaALqu-ScbGKq9VQHaEK?w=280&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: drop-shadow(2px 5px white);
+  font-weight: 900;
+  text-align: center;
+}
+.main .page1 #content1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main .page1 #content1 .c1text {
+  color: white;
+  padding: 20px;
+  font-size: 3vw;
+  align-items: baseline;
+  text-align: center;
+  font-family: "Aboreto", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Itim", cursive;
+  font-family: "Playfair Display", serif;
+  font-family: "Satisfy", cursive;
+  font-family: "Zeyada", cursive;
+}
+.main .page2 {
+  height: auto;
+  width: auto;
+  background-color: rgb(9, 15, 24);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.main .page2 #heading2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.main .page2 #content2 {
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 5vw;
+  font-family: "Aboreto", cursive;
+  font-family: "Big Shoulders Inline Text", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Itim", cursive;
+  font-family: "Playfair Display", serif;
+  font-family: "Satisfy", cursive;
+  font-family: "Zeyada", cursive;
+}
+.main .page3 {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(18, 32, 30);
+}
+.main .page3 #content3 {
+  font-family: "Kalam", cursive;
+  color: white;
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding: 2%;
+}
